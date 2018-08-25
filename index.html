@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+<!-- With thanks to html5boilerplate.com -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Burden and Burden Marketing, &quot;Doorstepper&quot;</title>
+
+    <script defer src="https://hpapi.io/hpapi.js"></script>
+    <script defer src="./eg-client.js"></script>
+
+  </head>
+  <body>
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+    
+
+
+<!-- LINK TO INVOKE TEST FUNCTION -->
+    <a id="test-link" href="#" style="position:absolute;left:40em;top:1.5em">Test</a>
+
+    <style>
+form.hpapi-hidden {
+    display: none;
+}
+form.hpapi-hidden * {
+    display: none;
+}
+    </style>
+
+    <form id="eg-client" class="hpapi-hidden" action="" onsubmit="return false">
+      <button name="download">Download</button>
+      <button name="ready">Ready</button>
+      <textarea name="results"></textarea>
+    </form>
+
+    <form id="hpapi-new" class="hpapi-hidden" action="" onsubmit="return false">
+      <input type="hidden" name="json_pretty_string" value="    " />
+      <input type="text" name="url" value="https://egv.dev/api/"/>
+      <input type="text" name="txnid" />
+      <button name="new">New</button>
+      <button name="created">Created</button>
+      <input type="text" name="timeout" value="4" />
+      <input type="text" name="key" value="20180720110427::89c56ad8-8ff3-11e8-902b-001f16148bc1" />
+      <input type="email" name="email" value="test.1@no.where" />
+      <input type="password" name="password" value="password" />
+      <input type="text" name="vendor" value="whitelamp-uk" />
+      <input type="text" name="package" value="hpapi-utility" />
+      <input type="text" name="class" value="\Hpapi\Utility" />
+      <input type="text" name="method" value="methods" />
+      <select name="argcount">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <input type="text" class="argument" name="arg_1" />
+      <input type="text" class="argument" name="arg_2" />
+      <input type="text" class="argument" name="arg_3" />
+      <input type="text" class="argument" name="arg_4" />
+      <input type="text" class="argument" name="arg_5" />
+      <input type="text" class="argument" name="arg_6" />
+      <input type="text" class="argument" name="arg_7" />
+      <input type="text" class="argument" name="arg_8" />
+      <input type="text" class="argument" name="arg_9" />
+    </form>
+
+    <form id="hpapi-template" class="hpapi-request hpapi-hidden">
+      <input name="txnid" />
+      <input name="url" />
+      <button name="post">Post</button>
+      <input name="timeout" />
+      <button name="ready">Ready</button>
+      <input name="key" />
+      <input name="email" />
+      <input name="password" />
+      <input name="code" value="000" />
+      <select name="status">
+        <option value="0">Status</option>
+        <option value="1">Opened</option>
+        <option value="2">Headers received</option>
+        <option value="3">Loading</option>
+        <option value="4">Done</option>
+        <option value="200">200 OK</option>
+        <option value="400">400 Bad Request</option>
+        <option value="403">403 Forbidden</option>
+        <option value="404">404 Not Found</option>
+        <option value="500">500 Internal Server Error</option>
+        <option value="599">599 Timed Out</option>
+        <option value="999">999 Other Status</option>
+      </select>
+      <input name="error" />
+      <input name="warning" />
+      <textarea name="notice"></textarea>
+      <textarea name="json"></textarea>
+    </form>
+
+  </body>
+</html>
